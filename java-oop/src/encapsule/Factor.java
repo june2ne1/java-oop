@@ -15,7 +15,7 @@ public class Factor {
 		int dest = scanner.nextInt();
 		for (int i = 1; i < dest; i++) {
 		if (dest % i == 0) {
-			System.out.println(i);
+			
 		}
 		}
 	}
