@@ -28,7 +28,16 @@ public class Account {
 		public Account() {
 			this.accountNo = (int) ((Math.random()*999999)+100000);
 		}
+		public Account(int accountNo) {
+			this.accountNo = (int) ((Math.random()*999999)+100000);
+		}
+		public Account(int accountNo, String name) {
+			this.accountNo = (int) ((Math.random()*999999)+100000);
+		}
 		
+		
+		
+
 	public int getAccountNo() {
 			return accountNo;
 		}
@@ -45,7 +54,7 @@ public class Account {
 			return restMoney;
 		}
 
-		public void setAccountNo(String accountNo) {
+		public void setAccountNo(accountNo) {
 			this.accountNo = (int) ((Math.random()*999999)+100000);
 		}
 

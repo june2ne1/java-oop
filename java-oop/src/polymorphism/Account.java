@@ -45,7 +45,7 @@ public class Account {
 			return restMoney;
 		}
 
-		public void setAccountNo(String accountNo) {
+		public void setAccountNo(int accountNo2) {
 			this.accountNo = (int) ((Math.random()*999999)+100000);
 		}
 
