@@ -56,15 +56,15 @@ public class AdminService implements Admin {
 
 	@Override
 	public Account[] searchAccountsByName(String name) {
-		int tempCount = searchAccountsByName(name);
+		int tempCount = 0;//searchAccountsByName(name);
 		if (tempCount ==0) 
-{
+{	   return null;
 			
 		}
-		Accountemp[] tempList = new Account [tempCount];
+		Account[] tempList = new Account [tempCount];
 		tempCount =0;
 		for (int i = 0; i < tempList.length; i++) {
-			temCount++;
+			//temCount++;
 		}
 		
 		return tempList;

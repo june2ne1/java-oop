@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class HanbitOffice {
 	public static void main(String[] args) {
-	   AccountService adminService = new 
-		Account account = new Account();
+	  // AccountService adminService = new 
+		//Account account = new Account();
 		Scanner scanner = new Scanner(System.in);
 		
 		while (true) {
@@ -21,7 +21,7 @@ public class HanbitOffice {
 					String name = scanner.next();
 					System.out.println("입금액 입력");
 					int restMoney = scanner.nextInt();
-					Service.openAccount(accountNo,)
+					//Service.openAccount(accountNo)
 							break;
 				case 2: break;
 				case 3:break;

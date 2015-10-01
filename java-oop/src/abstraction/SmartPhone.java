@@ -1,0 +1,22 @@
+package abstraction;
+
+public class SmartPhone extends Product {
+	protected String camera, weight;
+	
+
+	public void setSmartPhoneInfo(String company, String name, 
+			String serialNo, String camera, String weight) {
+		this.camera = camera;
+		this.weight = weight;
+		super.setProductInfo(company, name, serialNo);
+	}
+
+	@Override
+	public String display() {
+		return "제조회사: "+super.company+"\n"
+		+ " 제품명 : "+super.name+"\n"
+		+ " 고유번호 :"+super.serialNo+" \n"
+		+ "카메라:"+this.camera+" \n "
+		+ "무게:"+this.weight+"\n  ";
+	}
+}
